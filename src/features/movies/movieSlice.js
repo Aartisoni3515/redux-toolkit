@@ -24,8 +24,6 @@ export const fetchAsyncShows = createAsyncThunk(
   }
 );
 
-
-
 export const fetchAsyncMovieOrShowDetail = createAsyncThunk(
   "movies/fetchAsyncMovieOrShowDetail",
   async (id) => {
